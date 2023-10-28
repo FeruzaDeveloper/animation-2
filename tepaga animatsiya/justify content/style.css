@@ -1,0 +1,86 @@
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 50px 50px ;
+}
+
+
+.box{
+    width: 100px;
+    height: 70px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-radius: 6px;
+
+   }
+
+   .box:nth-child(2){
+    width: 120px;
+    height: 70px;
+    background-color: yellow;
+    margin-right: 10px;
+    border-radius: 6px;
+   }
+
+.flex{
+    display: flex;
+    padding: 10px;
+    width: 800px;
+    height: 70px;
+    background-color: blueviolet;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+
+.flex:nth-child(2){
+    display: flex;
+    padding: 10px;
+    width: 800px;
+    height: 70px;
+    background-color: blueviolet;
+    justify-content: flex-end;
+}
+
+.flex:nth-child(3){
+    display: flex;
+    padding: 10px;
+    width: 800px;
+    height: 70px;
+    background-color: blueviolet;
+    justify-content: center;
+}
+
+.flex:nth-child(4){
+    display: flex;
+    padding: 10px;
+    width: 800px;
+    height: 70px;
+    background-color: blueviolet;
+    justify-content: space-between;
+}
+
+.flex:nth-child(5){
+    display: flex;
+    padding: 10px;
+    width: 800px;
+    height: 70px;
+    background-color: blueviolet;
+    justify-content: space-around;
+}
+
+.flex:nth-child(6){
+    display: flex;
+    padding: 10px;
+    width: 800px;
+    height: 70px;
+    background-color: blueviolet;
+    justify-content: space-evenly;
+}
